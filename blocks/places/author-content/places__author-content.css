@@ -1,0 +1,14 @@
+.places__author-content{
+    margin-top: 100px;
+}
+
+@media screen and ( max-width: 768px ) {
+    .places__author-content{
+        margin-top: 0px;
+    }
+}
+@media screen and ( max-width: 320px ) {
+    .places__author-content{
+        padding: 0 16px;
+    }
+}

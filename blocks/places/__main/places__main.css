@@ -1,0 +1,18 @@
+.places__main{
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: minmax(0px, 460px)  minmax(0px, 487px);
+    grid-gap: 40px;
+}
+
+@media screen and ( max-width: 768px ){
+    .places__main{
+        padding-top: 24px;
+        grid-gap: 28px;
+    }
+}
+@media screen and ( max-width: 595px ) {
+    .places__main{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,5 @@
+@media screen and ( max-width: 595px ) {
+    .places__frame_button_fixed{
+        display: none;
+    }
+}

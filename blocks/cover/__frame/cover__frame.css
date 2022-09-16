@@ -1,0 +1,18 @@
+.cover__frame{
+    margin-top: 32px;
+    width: 198px;
+    height: 48px;
+    background-color: #0278FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+
+}
+.cover__frame:hover {
+    background: #0063D2;
+    opacity: 0.9;
+}

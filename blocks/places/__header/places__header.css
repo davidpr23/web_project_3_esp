@@ -1,0 +1,15 @@
+.places__header{
+    display: grid;
+    grid-template-columns: minmax(0px, 460px)  minmax(0px, 487px);
+    grid-gap: 40px;
+}
+@media screen and ( max-width: 768px ) {
+    .places__header{
+        grid-gap: 28px;
+    }
+}
+@media screen and ( max-width: 595px ) {
+    .places__header{
+        grid-template-columns: 1fr;
+    }   
+}
